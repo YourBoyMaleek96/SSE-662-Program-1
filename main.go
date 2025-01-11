@@ -1,15 +1,16 @@
 /*************************************************************************************************************************
 * Name: Malik Freeman
 * Date: 1/19/2025
-* Course: SSE 662 -Design, Maintenance, and Quality
+* Course: SSE 662 - Design, Maintenance, and Quality
 * Assignment: Module 1 Programming Task
 * File Name: Main.go
 * Description: This file implements a command-line To-Do List Manager in Go. The program
-*              allows users to Add Task: Allow users to add new tasks with a brief description.
-   								List Tasks: Display all existing tasks with their status (Pending/Done).
-   								Mark Task as Done: Enable users to mark a specific task as done by its task number.
-   								Delete Task: Permit deletion of a task by its task number.
-   								Help/Usage: Provide a help menu that outlines how to use each command.
+*              allows users to:
+*              - Add Task: Allow users to add new tasks with a brief description.
+*              - List Tasks: Display all existing tasks with their status (Pending/Done).
+*              - Mark Task as Done: Enable users to mark a specific task as done by its task number.
+*              - Delete Task: Permit deletion of a task by its task number.
+*              - Help/Usage: Provide a help menu that outlines how to use each command.
 ***********************************************************************************************************************/
 
 package main
