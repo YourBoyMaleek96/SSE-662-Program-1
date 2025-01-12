@@ -3,7 +3,7 @@
 * Date: 1/19/2025
 * Course: SSE 662 - Design, Maintenance, and Quality
 * Assignment: Module 1 Programming Task
-* File Name: Main.go
+* File Name: main.go
 * Description: This file implements a command-line To-Do List Manager in Go. The program
 *              allows users to:
 *              - Add Task: Allow users to add new tasks with a brief description.
@@ -37,7 +37,7 @@ var tasks []Task
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 
-	// Welcome message and usage instructions.
+	// To Do List header
 	fmt.Println("To-Do List Manager")
 	fmt.Println("-------------------")
 	fmt.Println("Type 'help' for usage instructions.")

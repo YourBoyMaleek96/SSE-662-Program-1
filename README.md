@@ -10,5 +10,8 @@ Once the code is run user can enter the following from the command line:
 	                                help                    - Show this help message.
 	                                quit                    - Quit the application.
 
+To test the code using the test file type go mod init todo-manager in the terminal to 
+initialize a Go module. Then you can use go test -v to test all the use cases.
+
 # How to Build and Run the Application
 To build the application into binaries users can type the following command - go build main.go in the terminal. After creating the binaries users can execute them by typing ./main in the terminal. 
